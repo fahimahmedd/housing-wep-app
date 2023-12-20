@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iCircles </title>
+    <link rel="shortcut icon" href="" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/lightbox.css">
+    <link rel="stylesheet" href="./css/venobox.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!-------- Header Section Start  ---------->
+    <header>
+        <div class="header">
+            <div class="container">
+                <div class="header_wrapper">
+                    <div class="row align-items-center">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-2">
+                            <a class="hamburger_btn" data-bs-toggle="offcanvas" href="#headerOffcanvas" role="button"
+                                aria-controls="headerOffcanvas">
+                                <i class="fa-solid fa-bars"></i>
+                                <span>Menu</span>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-10 text-center">
+                            <a href="index.html">
+                                <div class="logo">
+                                    <img src="./images/logo-2.webp" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 text-end d-lg-block d-md-block d-sm-none d-none ">
+                            <a href="#" class="call_btn">
+                                <i class="fa-solid fa-phone"></i> Call Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Header Offcanvas -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="headerOffcanvas" aria-labelledby="headerOffcanvasLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="headerOffcanvasLabel">
+                <div class="offcan_logo">
+                    <img src="./images/logo-2.webp" alt="">
+                </div>
+            </h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul>
+                <li><a href="index.html" class="active"> Home </a></li>
+                <li><a href="about.html"> About Us </a></li>
+                <li><a href="#"> Properties </a></li>
+                <li><a href="#"> Amenities </a></li>
+                <li><a href="#"> Media Center </a></li>
+                <li><a href="gallery.html"> Gallery </a></li>
+                <li><a href="contact.html"> Contact </a></li>
+            </ul>
+
+            <div class="offcan_bottom">
+                <div class="bottom_info_list">
+                    <div class="info_list"><a href="#"><i class="fa-solid fa-phone"></i> +88 01234526776 </a></div>
+                    <div class="info_list"><a href="#"><i class="fa-solid fa-phone"></i> +88 01222347563 </a></div>
+                    <div class="info_list"><a href="#"><i class="fa-solid fa-envelope"></i> salltd.info.gmail.com </a>
+                    </div>
+                </div>
+                <div class="icon_list">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------- Header Section End  ---------->
+
+    <!-------- Hero Section Start ------------->
+
+    <div class="common_hero">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="hero_slider" style="background-image: url(./images/banner2.jpg);">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="hero_slider" style="background-image: url(./images/banner3.jpg);">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="hero_slider" style="background-image: url(./images/banner1.webp);">
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="swiper-button-next"><span> </span> </div>
+            <div class="swiper-button-prev"><span> </span></div> -->
+            <!-- <div class="swiper-pagination"></div> -->
+        </div>
+        <div class="page_name">
+            About Us
+        </div>
+    </div>
+    <!-------- Hero Section End ------------->
+
+
+    <!------- About Section Start ------->
+    <section>
+        <div class="about">
+            <div class="container">
+                <div class="about_wrapper">
+                    <div class="row" data-aos="zoom-in" data-aos-duration="1800">
+                        <div class="col-lg-6">
+                            <div class="about_left">
+                                <img src="./images/land.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="about_right">
+                                <h2>A City Full Of Life <br> And Buildings <br> Made Of Dreams.</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about_bottom_content">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim aspernatur asperiores ratione
+                            labore, eos est nemo veniam voluptatibus laudantium architecto optio quam quisquam commodi
+                            accusamus esse saepe? Natus, itaque tempore! Atque architecto, reiciendis et id excepturi
+                            esse voluptatum! Itaque tempora temporibus eveniet sequi quas. Excepturi quo fugit, aliquam
+                            quam nemo, distinctio,</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam laborum nisi, accusantium
+                            a in sapiente aspernatur porro maiores aperiam. Atque architecto, reiciendis et id excepturi
+                            esse voluptatum! Itaque tempora temporibus eveniet sequi quas. Excepturi quo fugit, aliquam
+                            quam nemo, distinctio,</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam laborum nisi, accusantium
+                            a in sapiente aspernatur porro maiores aperiam. Atque architecto, reiciendis et id excepturi
+                            esse voluptatum! Itaque tempora temporibus eveniet sequi quas. Excepturi quo fugit, aliquam
+                            quam nemo, distinctio,</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------- About Section End  ------->
+
+    <!------- Mission  Section Start  ------->
+    <section>
+        <div class="mission">
+            <div class="container">
+                <div class="mission_wrapper">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="misson_card">
+                                <h4>Our Mission</h4>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque beatae delectus
+                                    aliquid, ipsum hic, enim temporibus sunt, quod vel deleniti tempore? Neque
+                                    aspernatur eum consequuntur distinctio officiis natus ex.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="misson_card">
+                                <h4>Our Vission</h4>
+                                <p>Lorem ipsum uxplicabo magnam rationeibus sunt, quod vel deleniti tempore? Neque
+                                    aspernatur eum consequuntur distinctio officiis natus ex.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="misson_card">
+                                <h4>Our Promise</h4>
+                                <p>Lorem ipsum dolor, ratione voluptatem natus saepe molestiae! Doloremque beatae
+                                    delectus aliquid, ipsum hic, enim temporibus sunt, quod vel deleniti tempore? Neque
+                                    aspernatur eum consequuntur distinctio officiis natus ex.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------- Mission Section End  ------->
+
+
+    <!------- Member Section Start ------->
+    <section>
+        <div class="member">
+            <div class="container">
+                <div class="member_wrapper">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="mamber_img">
+                                <img src="./images/mamber-3.webp" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="mamber_text">
+                                <p> <span>"</span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium
+                                    ea ratione nesciunt recusandae blanditiis dolorum, architecto amet soluta quis saepe
+                                    nam. Aliquam, quaerat vel. Quia cumque architecto totam! Saepe quaerat nihil aperiam
+                                    ipsam obcaecati earum labore, dolor aliquam rem.Lorem ipsum dolor sit amet,
+                                    consectetur adipisicing elit. Aut officiis quod aliquam voluptatum laudantium
+                                    assumenda doloremque quidem quo? Quaerat, alias Lorem ipsum dolor sit amet
+                                    consectetur adipisicing elit. Autem dolor illum ad, unde quibusdam voluptates
+                                    tempora eum impedit, consequatur obcaecati voluptatem odio, incidunt ea porro
+                                    reprehenderit aspernatur? Iure, veritatis in.? <span>"</span></p>
+                                <h4>Farid Shaha Ali Khan</h4>
+                                <h5>Chairman & Managing</h5>
+                                <h6>Sahabee Abason Ltd</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="member_wrapper_item">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6">
+                            <div class="mamber_item">
+                                <div class="maber_item_img">
+                                    <img src="./images/main-member.webp" alt="">
+                                </div>
+                                <h4>Farid Shaha Ali Khan</h4>
+                                <h5>Chairman & Managing</h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="mamber_item">
+                                <div class="maber_item_img">
+                                    <img src="./images/mamber-2.webp" alt="">
+                                </div>
+                                <h4>Farid Shaha Ali Khan</h4>
+                                <h5>Chairman & Managing</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------- Member Section End  ------->
+
+    <!---------- Footer Section Start ----------->
+    <footer class="footer">
+        <div class="fotter_main">
+            <div class="container">
+                <div class="footer_wrapper">
+                    <div class="row">
+                        <div class="col-lg-3 col-12">
+                            <div class="footer_wrap">
+                                <div class="footer_logo">
+                                    <img src="./images/logo.webp" alt="">
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores non quis quod.
+                                    Possimus officia eligendi provident odio, et molestias nam! </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-6">
+                            <div class="footer_wrap">
+                                <h4>Important Links</h4>
+                                <ul>
+                                    <li><a href="#"> Home </a></li>
+                                    <li><a href="#"> About </a></li>
+                                    <li><a href="#"> Feature </a></li>
+                                    <li><a href="#"> Compition </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-6">
+                            <div class="footer_wrap">
+                                <h4>More Product</h4>
+                                <ul class="product_list">
+                                    <li><a href="#"> iCircles </a></li>
+                                    <li><a href="#"> Lemmesay </a></li>
+                                    <li><a href="#"> iVault </a></li>
+                                    <li><a href="#"> Community </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-12">
+                            <div class="footer_wrap">
+                                <h4> Head Office </h4>
+                                <p>28/A-3, Toyenbee Circular Road, Sandwip Bhaban, (6th Floor), Motijheel-C/A, Dhaka.</p>
+                                <h5>+88 0123736733</h5>
+                                <h5>+88 0122238474</h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-12">
+                            <div class="footer_wrap">
+                                <h4>Follow Us</h4>
+                                <div class="social_links">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                    <i class="fa-brands fa-instagram"></i>
+                                    <i class="fa-brands fa-youtube"></i>
+                                </div>
+                                <div class="qr_img">
+                                    <img src="./images/qr.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_bottom">
+                    <span> Copyright © 2023 iCircles LLC . All rights reserved. </span>
+                    <ul>
+                        <li><a href="#"> <i class="fa-solid fa-chevron-right"></i> iCircles.app </a></li>
+                        <li><a href="#"> <i class="fa-solid fa-chevron-right"></i> lemmesaybd.app </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!---------- Footer Section End ----------->
+
+    <!--
+        Javascript Script Linker Part
+    --------------------------------------------------->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/lightbox.js"></script>
+    <script src="./js/venobox.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>

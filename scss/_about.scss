@@ -1,0 +1,147 @@
+.about{
+    padding: 120px 0 200px 0;
+    .about_wrapper{
+        .about_left{
+            width: 100%;
+            display: flex;
+            justify-content: center ;
+             img{
+                max-height: 600px;
+                width: 100%;
+                object-fit: contain;
+                border-radius: 16px;
+             }
+        }
+        .about_right{
+            margin-top: -10px;
+            h2{
+                font-size: 80px;
+                font-weight: 500;
+                line-height: 100px;
+                color: #cbcbcb;
+            }
+        }
+
+        .about_bottom_content{
+            padding: 40px 200px;
+            p{
+                line-height: 24px;
+                color:#bfbfbf;
+                font-size: 15px;
+                text-align: center;
+                font-family: 'Roboto', sans-serif;
+            }
+            .common_btn{
+                @include common-button;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+
+.mission{
+    padding: 60px  0;
+    // background-color: $offwhiteColor;
+
+    .mission_wrapper{
+        margin-top: -200px;
+        .misson_card{
+            height: 270px;
+            width: 100%;
+            background-color: $offwhiteColor;
+            border-radius: 5px;
+            padding: 35px 20px 15px 20px;
+            box-shadow: rgba(0, 0, 0, 0.102) 0px 3px 8px;
+            text-align: center;
+            h4{
+                font-size: 24px;
+                color: $blackColor;
+                padding-bottom: 15px;
+            }
+            p{
+                font-size: 15px;
+                color: $textColor;
+                line-height: 24px;
+                font-family: 'Roboto', sans-serif;
+                @include text-ellips-6;
+            }
+        }
+    }
+}
+
+.member{
+    padding: 100px 0;
+
+    .member_wrapper{
+        .mamber_img{
+            display: flex;
+            justify-content: end;
+            img{
+                max-height: 500px;
+                width: 100%;
+                object-fit: contain;
+            }
+        }
+        .mamber_text{
+            padding-top: 30px;
+            p{
+                font-size: 15px;
+                color: #b9b9b9;
+                font-family: 'Roboto', sans-serif;
+
+                span{
+                    font-size: 26px;
+                }
+            }
+            h4{
+                font-size: 24px;
+                color: #fff;
+                padding: 12px 0 5px 0;
+            }
+            h5{
+                font-size: 16px;
+                color: #d5d5d5;
+                font-family: 'Roboto', sans-serif;
+                line-height: 16px;
+            }
+            h6{
+                font-size: 15px;
+                color: #d1d1d1;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 400;
+            }
+        }
+    }
+    .member_wrapper_item{
+        padding-top: 120px;
+        .mamber_item{
+            height: 600px;
+            width: 100%;
+            border: 1px solid #c3c3c33b;
+            border-radius: 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .maber_item_img{
+                img{
+                    max-height: 450px;
+                    width: 100%;
+                    object-fit: contain;
+                }
+            }
+            h4{
+                font-size: 24px;
+                color: #fff;
+                padding: 25px 0 5px 0;
+            }
+            h5{
+                font-size: 16px;
+                color: #d5d5d5;
+                font-family: 'Roboto', sans-serif;
+                line-height: 16px;
+            }
+        }
+    }
+}

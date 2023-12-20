@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iCircles </title>
+    <link rel="shortcut icon" href="" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/lightbox.css">
+    <link rel="stylesheet" href="./css/venobox.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!-------- Header Section Start  ---------->
+    <header>
+        <div class="header">
+            <div class="container">
+                <div class="header_wrapper">
+                    <div class="row align-items-center">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-2">
+                            <a class="hamburger_btn" data-bs-toggle="offcanvas" href="#headerOffcanvas" role="button"
+                                aria-controls="headerOffcanvas">
+                                <i class="fa-solid fa-bars"></i>
+                                <span>Menu</span>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-10 text-center">
+                            <a href="index.html">
+                                <div class="logo">
+                                    <img src="./images/logo-2.webp" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 text-end d-lg-block d-md-block d-sm-none d-none ">
+                            <a href="#" class="call_btn">
+                                <i class="fa-solid fa-phone"></i> Call Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Header Offcanvas -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="headerOffcanvas" aria-labelledby="headerOffcanvasLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="headerOffcanvasLabel">
+                <div class="offcan_logo">
+                    <img src="./images/logo-2.webp" alt="">
+                </div>
+            </h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul>
+                <li><a href="index.html" class="active"> Home </a></li>
+                <li><a href="about.html"> About Us </a></li>
+                <li><a href="#"> Properties </a></li>
+                <li><a href="#"> Amenities </a></li>
+                <li><a href="#"> Media Center </a></li>
+                <li><a href="gallery.html"> Gallery </a></li>
+                <li><a href="contact.html"> Contact </a></li>
+            </ul>
+
+            <div class="offcan_bottom">
+                <div class="bottom_info_list">
+                    <div class="info_list"><a href="#"><i class="fa-solid fa-phone"></i> +88 01234526776 </a></div>
+                    <div class="info_list"><a href="#"><i class="fa-solid fa-phone"></i> +88 01222347563 </a></div>
+                    <div class="info_list"><a href="#"><i class="fa-solid fa-envelope"></i> salltd.info.gmail.com </a>
+                    </div>
+                </div>
+                <div class="icon_list">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------- Header Section End  ---------->
+
+    <!-------- Hero Section Start ------------->
+
+    <div class="hero">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="hero_slider" style="background-image: url(./images/banner2.jpg);">
+                        <h2 data-aos="fade-up" data-aos-duration="2500"> A DROP OF HEAVEN </h2>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="hero_slider" style="background-image: url(./images/banner3.jpg);">
+                        <h2 data-aos="fade-up" data-aos-duration="2500"> A DROP OF HEAVEN </h2>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="hero_slider" style="background-image: url(./images/banner1.webp);">
+                        <h2 data-aos="fade-up" data-aos-duration="2500"> ENTWINE WITH NATURE </h2>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="swiper-button-next"><span> </span> </div>
+            <div class="swiper-button-prev"><span> </span></div> -->
+            <!-- <div class="swiper-pagination"></div> -->
+        </div>
+    </div>
+    <!-------- Hero Section End ------------->
+
+
+    <!------- About Section Start ------->
+    <section>
+        <div class="about">
+            <div class="container">
+                <div class="about_wrapper">
+                    <div class="row" data-aos="zoom-in" data-aos-duration="1800">
+                        <div class="col-lg-6">
+                            <div class="about_left">
+                                <img src="./images/land.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="about_right">
+                                <h2>A City Full Of Life <br> And Buildings <br> Made Of Dreams.</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about_bottom_content">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim aspernatur asperiores ratione
+                            labore, eos est nemo veniam voluptatibus laudantium architecto optio quam quisquam commodi
+                            accusamus esse saepe? Natus, itaque tempore!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam laborum nisi, accusantium
+                            a in sapiente aspernatur porro maiores aperiam. Atque architecto, reiciendis et id excepturi
+                            esse voluptatum! Itaque tempora temporibus eveniet sequi quas. Excepturi quo fugit, aliquam
+                            quam nemo, distinctio,</p>
+                        <div class="d-flex justify-content-center">
+                            <div class="common_btn">
+                                Learn More ..
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------- About Section End  ------->
+
+
+    <!------- Gallery Section Start ------->
+    <section>
+        <div class="gallery">
+            <div class="container">
+                <div class="gallery_wrapper">
+                    <div class="sec_header">
+                        <h2> Gallery </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery_slider">
+                <div class="swiper-group">
+                    <div class="swiper-button-next"> </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="swiper mySwiperGallery">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="gallery_slider_item">
+                                <img src="./images/gallery-3.jpg" alt="">
+                                <a href="./images/gallery-3.jpg" data-lightbox="image" data-title="Caption">
+                                    <div class="gallery_overly">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="gallery_slider_item">
+                                <img src="./images/gallery-1.jpg" alt="">
+                                <a href="./images/gallery-1.jpg" data-lightbox="image" data-title="Caption">
+                                    <div class="gallery_overly">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="gallery_slider_item">
+                                <img src="./images/gallery-2.jpg" alt="">
+                                <a href="./images/gallery-2.jpg" data-lightbox="image" data-title="Caption">
+                                    <div class="gallery_overly">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="gallery_slider_item">
+                                <img src="./images/gallery-1.jpg" alt="">
+                                <a href="./images/gallery-1.jpg" data-lightbox="image" data-title="Caption">
+                                    <div class="gallery_overly">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!------- Gallery Section End  ------->
+
+
+    <!-------- Common Section Start  ----------->
+    <section class="white_section">
+        <div class="common_section">
+            <div class="container">
+                <div class="common_section_wrapper" data-aos="zoom-in" data-aos-duration="1000">
+                     <div class="common_sec_img">
+                        <img src="./images/house.png" alt="">
+                     </div>
+                     <h4> REACHINGNEW HEIGHTS SINCE 1972</h4>
+                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident eaque in ullam illo animi porro cum error?</p>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, fuga? Dolor fugiat delectus consequuntur nesciunt, eos eum deleniti, quis ab similique distinctio quia aliquid. Aliquam natus totam fugiat temporibus officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ad sapiente esse enim nihil tempore quia doloremque voluptas temporibus in, itaque molestias, suscipit autem excepturi quidem cum odio nulla consequatur delectus animi possimus maiores. Velit, nesciunt consequatur? Ratione, perspiciatis. Assumenda! consequatur? Ratione, perspiciatis. Assumenda!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------   Common Section End   ----------->
+
+
+    <!-------- AMENITIES Section Start  ----------->
+    <section>
+        <div class="amenities">
+            <div class="container">
+                <div class="amenities_wrapper">
+                    <div class="sec_header">
+                        <h2> AMENITIES </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="amenities_slider">
+                <div class="swiper-group">
+                    <div class="swiper-button-next"> </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="swiper mySwiperAmenities">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="amenities_slider_item">
+                                <img src="./images/gallery-3.jpg" alt="">
+                                <div class="amenities_overly">
+                                    <ul>
+                                        <li>Hospital Clinic</li>
+                                        <li>Diagonistic Center</li>
+                                        <li>24 Hour Support</li>
+                                        <li>24 Hour Ambulance Support</li>
+                                    </ul>
+                                </div>
+                                <div class="amenities_overly_content">
+                                    <h4>Health Care</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="amenities_slider_item">
+                                <img src="./images/gallery-1.jpg" alt="">
+                                <div class="amenities_overly">
+                                    <ul>
+                                        <li>Hospital Clinic</li>
+                                        <li>Diagonistic Center</li>
+                                        <li>24 Hour Support</li>
+                                        <li>24 Hour Ambulance Support</li>
+                                    </ul>
+                                </div>
+                                <div class="amenities_overly_content">
+                                    <h4>Health Care</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="amenities_slider_item">
+                                <img src="./images/gallery-2.jpg" alt="">
+                                <div class="amenities_overly">
+                                    <ul>
+                                        <li>Hospital Clinic</li>
+                                        <li>Diagonistic Center</li>
+                                        <li>24 Hour Support</li>
+                                        <li>24 Hour Ambulance Support</li>
+                                    </ul>
+                                </div>
+                                <div class="amenities_overly_content">
+                                    <h4>Health Care</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="amenities_slider_item">
+                                <img src="./images/gallery-3.jpg" alt="">
+                                <div class="amenities_overly">
+                                    <ul>
+                                        <li>Hospital Clinic</li>
+                                        <li>Diagonistic Center</li>
+                                        <li>24 Hour Support</li>
+                                        <li>24 Hour Ambulance Support</li>
+                                    </ul>
+                                </div>
+                                <div class="amenities_overly_content">
+                                    <h4>Health Care</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="amenities_slider_item">
+                                <img src="./images/gallery-1.jpg" alt="">
+                                <div class="amenities_overly">
+                                    <ul>
+                                        <li>Hospital Clinic</li>
+                                        <li>Diagonistic Center</li>
+                                        <li>24 Hour Support</li>
+                                        <li>24 Hour Ambulance Support</li>
+                                    </ul>
+                                </div>
+                                <div class="amenities_overly_content">
+                                    <h4>Health Care</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-------- AMENITIES Section Esnd  ----------->
+
+
+    <!-------- Video Section Start  ----------->
+    <section>
+        <div class="video_section">
+            <div class="container">
+                 <div class="video_wrapper">
+                     <div class="video_img">
+                        <img src="./images/video_thumb.webp" alt="">
+                        <div class="video_overly">
+                            <a id="play-video" class="video-play-button my-video-links" data-autoplay="true" data-vbtype="video" href="https://youtu.be/vixKgSSKP28">
+                                <span></span>
+                            </a>
+                        </div>
+                     </div>
+                    
+                 </div>
+            </div>
+        </div>
+    </section>
+    <!-------- Video Section End  ----------->
+
+    <!-------- Common Section Two  ---------->
+    <section>
+        <div class="common_section_two">
+            <div class="container">
+                <h4>LIVING IN SERENITY <br> AND HARMONY</h4>
+                <div class="common_section_two_wrapper"  data-aos="fade-right" data-aos-duration="1500">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="common_section_img">
+                                <img src="./images/land.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="common_section_text">
+                                <ul>
+                                    <li><a href="#"> 2.5 KATHA </a></li>
+                                    <li><a href="#"> 3 KATHA </a></li>
+                                    <li><a href="#"> 3.5 KATHA </a></li>
+                                    <li><a href="#"> 4 KATHA </a></li>
+                                    <li><a href="#"> 5 KATHA </a></li>
+                                    <li><a href="#"> 10 KATHA </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="common_section_two_wrapper"  data-aos="fade-right" data-aos-duration="1500">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="common_section_text">
+                               <h2>A LIFE OF CONVENIENCE</h2>
+                               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates at enim ab delectus suscipit obcaecati! Deserunt maiores laborum aperiam ex?</p>
+                               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.  Voluptates at enim ab delectus suscipit obcaecati! Deserunt maiores laborum aperiam ex? Voluptates at enim ab delectus suscipit obcaecati! Deserunt maiores laborum aperiam ex?</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="common_section_img">
+                                <img src="./images/common-3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------- Common Section Two  ---------->
+
+    <!---------- Footer Section Start ----------->
+    <footer class="footer">
+        <div class="fotter_main">
+            <div class="container">
+                <div class="footer_wrapper">
+                    <div class="row">
+                        <div class="col-lg-3 col-12">
+                            <div class="footer_wrap">
+                                <div class="footer_logo">
+                                    <img src="./images/logo.webp" alt="">
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores non quis quod.
+                                    Possimus officia eligendi provident odio, et molestias nam! </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-6">
+                            <div class="footer_wrap">
+                                <h4>Important Links</h4>
+                                <ul>
+                                    <li><a href="#"> Home </a></li>
+                                    <li><a href="#"> About </a></li>
+                                    <li><a href="#"> Feature </a></li>
+                                    <li><a href="#"> Compition </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-6">
+                            <div class="footer_wrap">
+                                <h4>More Product</h4>
+                                <ul class="product_list">
+                                    <li><a href="#"> iCircles </a></li>
+                                    <li><a href="#"> Lemmesay </a></li>
+                                    <li><a href="#"> iVault </a></li>
+                                    <li><a href="#"> Community </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-12">
+                            <div class="footer_wrap">
+                                <h4> Head Office </h4>
+                                <p>28/A-3, Toyenbee Circular Road, Sandwip Bhaban, (6th Floor), Motijheel-C/A, Dhaka.</p>
+                                <h5>+88 0123736733</h5>
+                                <h5>+88 0122238474</h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-12">
+                            <div class="footer_wrap">
+                                <h4>Follow Us</h4>
+                                <div class="social_links">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                    <i class="fa-brands fa-instagram"></i>
+                                    <i class="fa-brands fa-youtube"></i>
+                                </div>
+                                <div class="qr_img">
+                                    <img src="./images/qr.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_bottom">
+                    <span> Copyright © 2023 iCircles LLC . All rights reserved. </span>
+                    <ul>
+                        <li><a href="#"> <i class="fa-solid fa-chevron-right"></i> iCircles.app </a></li>
+                        <li><a href="#"> <i class="fa-solid fa-chevron-right"></i> lemmesaybd.app </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!---------- Footer Section End ----------->
+
+    <!--
+     Javascript Script Linker Part
+    --------------------------------------------------->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/lightbox.js"></script>
+    <script src="./js/venobox.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
