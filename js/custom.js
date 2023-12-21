@@ -1,10 +1,28 @@
 $(function () {
 
+  var swiper = new Swiper(".heroSwipper", {
+    spaceBetween: 5,
+    effect: "fade",
+    speed: 1500,
+    cssEase: 'linear',
+    loop: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    autoplay: {
+      delay: 3500,
+      disableOnInteraction: false,
+    },
+  });
+
+
   var swiper = new Swiper(".mySwiper", {
     spaceBetween: 30,
-    effect: "fade",
-    speed: 1200,
-    cssEase: 'linear',
     loop: true,
     navigation: {
       nextEl: ".swiper-button-next",
@@ -20,62 +38,21 @@ $(function () {
     },
   });
 
-  // Gallery
-  var swiper = new Swiper(".mySwiperGallery", {
-    slidesPerView: "auto",
+  // Review Swipper
+  var swiper = new Swiper(".reviewSwipper", {
     spaceBetween: 30,
-    // centeredSlides: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
+    loop: true,
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
-    breakpoints: {
-      240: {
-        slidesPerView: 1,
-        spaceBetween: 20,
-      },
-      768: {
-        slidesPerView: 2,
-        spaceBetween: 40,
-      },
-      1024: {
-        slidesPerView: 2,
-        spaceBetween: 50,
-      },
-    },
-  });
-
-
-  // amenities
-  var swiper = new Swiper(".mySwiperAmenities", {
-    slidesPerView: "auto",
-    spaceBetween: 30,
-    // centeredSlides: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-    breakpoints: {
-      240: {
-        slidesPerView: 1,
-        spaceBetween: 20,
-      },
-      768: {
-        slidesPerView: 2,
-        spaceBetween: 40,
-      },
-      1024: {
-        slidesPerView: 2,
-        spaceBetween: 50,
-      },
+    // pagination: {
+    //   el: ".swiper-pagination",
+    //   clickable: true,
+    // },
+    autoplay: {
+      delay: 3500,
+      disableOnInteraction: false,
     },
   });
 
@@ -94,14 +71,25 @@ $(function () {
     $('html, body').animate({ scrollTop: 0 }, '300');
   });
 
+  // Header Sticky 
   $(window).scroll(function(){
-    if ($(this).scrollTop() > 150) {
-       $('.header').addClass('header_sticky');
+    if ($(this).scrollTop() > 140) {
+       $('.header').addClass('sticky-nav');
     } else {
-       $('.header').removeClass('header_sticky');
+       $('.header').removeClass('sticky-nav');
     }
   });
+  // Hero Section 
+  $(window).scroll(function(){
+    if ($(this).scrollTop() > 100) {
+       $('.hero').addClass('sticky-hero');
+    } else {
+       $('.hero').removeClass('sticky-hero');
+    }
+  });
+
 });
+
 
 // Aos Animation
 AOS.init();
